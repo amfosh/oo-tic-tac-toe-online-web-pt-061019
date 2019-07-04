@@ -93,9 +93,11 @@ WIN_COMBINATIONS = [
   end
   
   def winner
-    if won?
-    @board[won?[0]]
+    winning_combo = won?
+  if winning_combo
+    @board[winning_combo[0]]
   end
+end
 
   def play
     until over?
