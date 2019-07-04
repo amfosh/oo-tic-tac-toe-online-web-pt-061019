@@ -91,4 +91,8 @@ WIN_COMBINATIONS = [
       false
     end
   end
+  
+  def winner?
+    won?
+    return 
 end
