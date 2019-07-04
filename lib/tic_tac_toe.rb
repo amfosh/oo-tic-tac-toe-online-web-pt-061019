@@ -65,4 +65,6 @@ WIN_COMBINATIONS = [
   end
   
   def won?
+    if WIN_COMBINATIONS
+      true
 end
