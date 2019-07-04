@@ -101,7 +101,7 @@ WIN_COMBINATIONS = [
     until over?
     turn
     if won?
-      puts "Congratulations, #{winner}! You won!"
+      puts "Congratulations, #{winner}!"
     elsif draw?
       puts "Cat's Game!"
     end
