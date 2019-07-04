@@ -46,24 +46,10 @@ WIN_COMBINATIONS = [
   def turn_count
     turn = 0 
     @board.each do |token|
-      if token == "X" || token = "O"
+      if token == "X" || token == "O"
       turn +=1 
     else
       turn
     end
   end
-    
-    def turn
-    puts "What is your move?"
-    input = gets.chomp
-    input_to_index(input)
-    if valid_move?(index)
-      move
-    else
-      "That spot is taken! Try again."
-      if valid_move?(index)
-        move
-      end
-    end
-  end
-end 
+end
