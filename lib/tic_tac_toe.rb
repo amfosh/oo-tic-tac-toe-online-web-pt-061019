@@ -74,4 +74,5 @@ WIN_COMBINATIONS = [
   
   def full? 
     @board.all?(position_taken? == true)
+  end
 end
