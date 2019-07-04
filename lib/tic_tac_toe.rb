@@ -63,4 +63,6 @@ WIN_COMBINATIONS = [
       turn
     end
   end
+  
+  def won?
 end
