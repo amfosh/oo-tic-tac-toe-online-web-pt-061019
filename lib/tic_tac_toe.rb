@@ -71,4 +71,7 @@ WIN_COMBINATIONS = [
       (@board[win_combo[0]] == "X" || @board[win_combo[0]] == "O")
     end
   end
+  
+  def full? 
+    
 end
