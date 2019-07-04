@@ -102,6 +102,7 @@ WIN_COMBINATIONS = [
       turn
     end
       if won?
+      winner == "X" || winner == "O"
       puts "Congratulations #{winner}!"
     elsif draw?
       puts "Cat's Game!"
