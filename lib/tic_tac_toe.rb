@@ -44,4 +44,4 @@ WIN_COMBINATIONS = [
   end
   
   def turn_count
-    @board.count 
+    @board.count{|token| 
