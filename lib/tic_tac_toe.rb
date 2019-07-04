@@ -47,7 +47,7 @@ WIN_COMBINATIONS = [
     turn = 0 
     @board.each do |token|
       if token == "X" || token == "O"
-      turn +=1 
+      turn += 1 
     else
       turn
     end
