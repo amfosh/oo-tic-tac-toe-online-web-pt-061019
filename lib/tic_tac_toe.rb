@@ -59,26 +59,7 @@ WIN_COMBINATIONS = [
       move(index, token)
       display_board
     else
-    
-    
-1. Ask the user for their move by specifying a position between 1-9.
-2. Receive the user's input.
-3. Translate that input into an index value.
-4. If the move is valid, make the move and display the board.
-5. If the move is invalid, ask for a new move until a valid move is received.
-
-All these procedures will be wrapped into our `#turn` method. However, the majority of the logic for these procedures will be defined and encapsulated in individual methods that you've already built.
-
-You can imagine the pseudocode for the `#turn` method:
-
-```
-ask for input
-get input
-translate input into index
-if index is valid
-  make the move for index
-  show the board
-else
-  ask for input again
-end
+      turn
+    end
+  end
 end
