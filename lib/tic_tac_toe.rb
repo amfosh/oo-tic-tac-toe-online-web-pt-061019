@@ -81,4 +81,5 @@ WIN_COMBINATIONS = [
       true
     else
       false
+    end
 end
