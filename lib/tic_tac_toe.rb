@@ -96,7 +96,6 @@ WIN_COMBINATIONS = [
     if won?
     @board[won?[0]]
   end
-end
 
   def play
     until over?
@@ -105,7 +104,7 @@ end
       winner = "X" || winner = "O"
       puts "Congratulations, #{winner}! You won!"
     elsif draw?
-      puts "This game ended in a draw."
+      puts "Cat's Game!"
     end
   end
 end
