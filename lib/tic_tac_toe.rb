@@ -65,9 +65,10 @@ WIN_COMBINATIONS = [
   end
   
   def won?
-    winning_combo = nil
-    winning_combo = WIN_COMBINATIONS.detect do |win_combination|
-      @board[win_combination[0]] != " " && @board[win_combination[0]] == @board[win_combination[1]] && @board[combination[1]] == @board[win_combination[2]]
+    WIN_COMBINATIONS.detect do |win_combo|
+        @board[win_combo[0]] == @board[win_combo[1]] &&
+      @board[win_combo[1]] == @board[win_combo[2]] &&
+      (@board[win_combo[0]] == "X" || @board[win_combo[0]] == "O")
     end
   end
 end
