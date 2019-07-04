@@ -83,4 +83,6 @@ WIN_COMBINATIONS = [
       false
     end
   end
+  
+  def over?
 end
