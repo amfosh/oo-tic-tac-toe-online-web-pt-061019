@@ -65,7 +65,7 @@ WIN_COMBINATIONS = [
   end
   
   def won?
-    if WIN_COMBINATIONS
+    WIN_COMBINATIONS.detect do 
       true
     else
       false
