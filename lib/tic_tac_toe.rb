@@ -53,7 +53,7 @@ WIN_COMBINATIONS = [
   
   def turn 
     puts "It's your turn! Pick your move by entering 1-9!"
-    gets.chomp
+    input = gets.chomp
     
 1. Ask the user for their move by specifying a position between 1-9.
 2. Receive the user's input.
