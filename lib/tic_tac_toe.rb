@@ -75,4 +75,10 @@ WIN_COMBINATIONS = [
   def full? 
     @board.all?{|token| token == "X" || token == "O"} 
   end
+  
+  def draw?
+    if full? && !won?
+      true
+    else
+      false
 end
