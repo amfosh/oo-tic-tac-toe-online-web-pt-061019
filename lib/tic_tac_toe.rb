@@ -51,6 +51,7 @@ WIN_COMBINATIONS = [
     else
       turn
     end
+  end
     
     def turn
     puts "What is your move?"
