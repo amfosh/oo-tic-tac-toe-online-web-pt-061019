@@ -54,7 +54,7 @@ WIN_COMBINATIONS = [
   def turn 
     puts "It's your turn! Pick your move by entering 1-9!"
     user_input = gets.strip
-    index = input_to_index(input)
+    index = input_to_index(user_input)
     if valid_move?(index)
       move(index, token)
       display_board
