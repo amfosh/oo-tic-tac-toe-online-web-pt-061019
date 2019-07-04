@@ -102,6 +102,7 @@ end
     until over?
     turn
     if won?
+      winner = "X" || winner = "O"
       puts "Congratulations, #{winner}! You won!"
     elsif draw?
       puts "This game ended in a draw."
