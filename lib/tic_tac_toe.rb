@@ -45,8 +45,12 @@ WIN_COMBINATIONS = [
   
   def turn_count
     turn = 0 
-    @board.each do |taken|
+    @board.each do |token|
+      if token == "X" || token = "O"
       turn +=1 
+    else
+      turn
+    end
     
     def turn
     puts "What is your move?"
