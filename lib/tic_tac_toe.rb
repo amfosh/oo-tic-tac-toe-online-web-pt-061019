@@ -94,7 +94,7 @@ WIN_COMBINATIONS = [
   
   def winner?
     if won?
-    return winner
+    @board[won?[0]]
   end
 end
 end
