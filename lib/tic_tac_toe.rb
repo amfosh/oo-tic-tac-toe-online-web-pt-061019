@@ -92,7 +92,7 @@ WIN_COMBINATIONS = [
     end
   end
   
-  def winner?
+  def winner
     if won?
     board[won?[0]]
   end
