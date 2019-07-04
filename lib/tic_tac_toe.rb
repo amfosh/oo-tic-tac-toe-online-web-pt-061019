@@ -65,7 +65,7 @@ WIN_COMBINATIONS = [
   end
   
   def won?
-    WIN_COMBINATIONS.detect do 
+    WIN_COMBINATIONS.detect do |win_combination|
       true
     else
       false
