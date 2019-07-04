@@ -48,5 +48,5 @@ WIN_COMBINATIONS = [
   end
   
   def current_player
-    
+    turn_count
 end
