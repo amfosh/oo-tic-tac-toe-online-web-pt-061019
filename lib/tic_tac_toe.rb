@@ -66,7 +66,7 @@ WIN_COMBINATIONS = [
   
   def won?
     WIN_COMBINATIONS.detect do |win_combination|
-      @board[win_comination[0]] == @
+      board[win_combination[0]] == board[win_combination[2]]
       true
     else
       false
