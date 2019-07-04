@@ -55,8 +55,8 @@ WIN_COMBINATIONS = [
     puts "It's your turn! Pick your move by entering 1-9!"
     input = gets.strip
     input = input_to_index
-    if valid_move?
-      move 
+    if valid_move?(index)
+      move(index, token)
       display_board
     else
     
