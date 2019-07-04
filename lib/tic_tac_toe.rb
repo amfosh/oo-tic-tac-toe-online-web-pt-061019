@@ -98,10 +98,10 @@ WIN_COMBINATIONS = [
   end
 
   def play
-      until over?
+    until over?
       turn
     end
-      if won?
+    if won?
       winner == "X" || winner == "O"
       puts "Congratulations #{winner}!"
     elsif draw?
