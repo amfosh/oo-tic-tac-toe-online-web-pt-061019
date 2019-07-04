@@ -93,6 +93,7 @@ WIN_COMBINATIONS = [
   end
   
   def winner?
-    won?
-    return 
+    if won?
+    return winner
+  end
 end
